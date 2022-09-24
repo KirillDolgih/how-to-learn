@@ -103,6 +103,7 @@
   flex-direction: column;
   justify-content: space-between;
 }
+
 .two-columns__paragraph {
   margin: 0;
   line-height: 34px;
@@ -110,11 +111,12 @@
   font-weight: normal;
   padding-bottom: 30px;
 }
+
 .two-columns__paragraph:last-child {
-padding-bottom: 0;
+  padding-bottom: 0;
 }
 
-.two-columns__span-accent{
+.two-columns__span-accent {
   line-height: 34px;
   font-size: 24px;
   font-weight: 600;
@@ -124,6 +126,7 @@ padding-bottom: 0;
   padding-top: 100px;
   padding-bottom: 100px;
 }
+
 .section-title {
   display: flex;
   margin: auto;
@@ -133,6 +136,7 @@ padding-bottom: 0;
   font-size: 60px;
   font-weight: 600;
 }
+
 .section-subtitle {
   display: flex;
   margin: auto;
@@ -144,6 +148,7 @@ padding-bottom: 0;
   font-size: 24px;
   font-weight: normal;
 }
+
 .table {
   margin: auto;
   list-style: none;
@@ -152,16 +157,19 @@ padding-bottom: 0;
   flex-wrap: wrap;
   justify-content: space-between;
 }
+
 .table__heading {
   margin: 0;
   line-height: 1.15;
   font-size: 24px;
   font-weight: 600;
 }
+
 .table__cell {
   width: 250px;
   padding-top: 60px;
 }
+
 .table__text {
   margin: 0;
   margin-top: 20px;
@@ -177,7 +185,7 @@ padding-bottom: 0;
 }
 
 .feynman__title {
-  position:relative;
+  position: relative;
   z-index: 99;
   max-width: 648px;
   font-size: 120px;
@@ -187,8 +195,9 @@ padding-bottom: 0;
   text-align: center;
   padding-top: 100px;
 }
+
 .feynman__subtitle {
-  position:relative;
+  position: relative;
   z-index: 99;
   font-size: 36px;
   line-height: 51px;
@@ -197,6 +206,7 @@ padding-bottom: 0;
   margin: 0 auto;
   text-align: center;
 }
+
 .feynman__link {
   position: absolute;
   top: 50%;
@@ -208,6 +218,7 @@ padding-bottom: 0;
   font-size: 36px;
   font-weight: normal;
 }
+
 .feynman__richard {
   width: 867px;
   height: 637px;
@@ -218,12 +229,13 @@ padding-bottom: 0;
 }
 
 .kaufman {
-  background-color:  #1f1f1f;
+  background-color: #1f1f1f;
   color: #fff;
   padding-top: 90px;
   overflow: hidden;
   position: relative;
 }
+
 .kaufman__section-title_theme_dark {
   display: flex;
   margin: auto;
@@ -232,8 +244,8 @@ padding-bottom: 0;
   line-height: 1.15;
   font-size: 60px;
   font-weight: 600;
-  padding-top: 90px;
 }
+
 .kaufman__section-subtitle_theme_dark {
   display: flex;
   margin: auto;
@@ -244,17 +256,20 @@ padding-bottom: 0;
   font-size: 24px;
   font-weight: normal;
 }
+
 .table_theme_dark {
   position: relative;
   z-index: 99;
   align-items: flex-start;
   padding-bottom: 90px;
 }
+
 .table__cell_theme_dark {
   margin: 0;
   width: 200px;
   padding-top: 80px;
 }
+
 .table__heading_theme_dark {
   margin: 0;
   padding-bottom: 20px;
@@ -262,12 +277,14 @@ padding-bottom: 0;
   font-size: 24px;
   font-weight: 600;
 }
+
 .table__text_theme_dark {
   margin: 0;
   line-height: 1.2;
   font-size: 18px;
   font-weight: normal;
 }
+
 .kaufman__triangle {
   background-image: url(../images/kaufman-triangle.svg);
   width: 877px;
@@ -282,28 +299,32 @@ padding-bottom: 0;
   display: flex;
   justify-content: space-between;
   min-height: 350px;
-  background-color:  #1f1f1f;
+  background-color: #1f1f1f;
   color: #fff;
   padding: 60px 0 40px;
   position: relative;
   z-index: 0;
 }
+
 .footer__columns {
   display: flex;
   width: 90%;
   justify-content: space-between;
   margin: 0 auto;
 }
+
 .footer__column_content_copyright {
   display: flex;
   flex-basis: 711px;
   flex-direction: column;
   justify-content: space-between;
 }
-.footer__logo {
+
+.logo_place_footer {
   width: 238px;
   height: 32px;
 }
+
 .foother__author {
   margin: 0;
   padding: 18px 0 18px;
@@ -311,15 +332,14 @@ padding-bottom: 0;
   font-size: 18px;
   font-weight: normal;
 }
-.footer__column_content_info {
 
-}
 .footer__column-heading {
   margin: 0;
   line-height: 30px;
   font-size: 18px;
   font-weight: 600;
 }
+
 .footer__column-links {
   display: flex;
   flex-direction: column;
@@ -331,16 +351,15 @@ padding-bottom: 0;
   list-style: none;
   padding: 0;
 }
+
 .footer__column-link {
   text-decoration: none;
-  color: #f2f2f2;
+  color: #fff;
   list-style: none;
 }
+
 .footer__social-icon {
   width: 16px;
   height: 16px;
   padding-right: 10px;
 }
-
-
-
